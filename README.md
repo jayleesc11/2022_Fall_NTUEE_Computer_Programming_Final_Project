@@ -12,8 +12,8 @@ The starting interface pops up once the game is started. There are three blocks 
 Please click on the block labeled "New Game" to start playing. For information on the characters you control, please click on "Info on student side (player controlled)"<br>
 For information on the characters, you will be taking defense against, please click on "Info on NTU side (CPU controlled)".<br>
 
-Properties of characters:
-Cost: The resources (coffee) needed to construct a character on the map. The cups of coffee you possess are displayed at the left edge of the card bar.
+### Properties of characters:
+*Cost: *The resources (coffee) needed to construct a character on the map. The cups of coffee you possess are displayed at the left edge of the card bar.
 Cooldown time: The minimum interval between constructing a character and selecting it the next time. The cooldown time remaining for each character is displayed over their position on the card bar in seconds.
 Please note that cooldown time doesn't start counting until the character has been constructed on the map.
 HP: The amount of damage a character can bear before it gets demolished.
