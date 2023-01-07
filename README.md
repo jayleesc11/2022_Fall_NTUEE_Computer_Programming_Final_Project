@@ -1,5 +1,5 @@
 # NTUEE-Computer-Programming-Final-Project-Game-Student-vs-NTU
-This game is a tower defense game based on the university school life of the developers.  
+This game is a tower defense game based on the university school life of the developers.<br>
 Players assume control of the Student side, taking defense against the NTU side which is controlled automatically by the program.
 
 ## For users:
@@ -7,10 +7,10 @@ Players assume control of the Student side, taking defense against the NTU side 
 This game opens up a window of size 1100*960 pixels. Please modify your display settings to accommodate the window before you run the game.
 
 ### Starting Interface:
-Open "Final_Project.exe".
-The starting interface pops up once the game is started. There are three blocks on the interface.
-Please click on the block labeled "New Game" to start playing. For information on the characters you control, please click on "Info on student side (player controlled)."
-For information on the characters, you will be taking defense against, please click on "Info on NTU side (CPU controlled)".
+Open "Final_Project.exe".<br>
+The starting interface pops up once the game is started. There are three blocks on the interface.<br>
+Please click on the block labeled "New Game" to start playing. For information on the characters you control, please click on "Info on student side (player controlled)"<br>
+For information on the characters, you will be taking defense against, please click on "Info on NTU side (CPU controlled)".<br>
 
 Properties of characters:
 Cost: The resources (coffee) needed to construct a character on the map. The cups of coffee you possess are displayed at the left edge of the card bar.
