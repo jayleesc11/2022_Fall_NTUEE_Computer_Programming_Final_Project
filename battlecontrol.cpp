@@ -42,7 +42,7 @@ void Battlecontrol::HandleAllBattleCalculation()
 	}
 	
 	// Student
-    for (int i = 0; i < g_students.size(); i++)
+    	for (int i = 0; i < g_students.size(); i++)
 	{
 		// shooters
 		HandleStudentShoot(g_students[i]);
