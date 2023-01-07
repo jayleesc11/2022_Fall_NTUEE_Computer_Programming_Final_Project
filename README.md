@@ -6,7 +6,7 @@ Players assume control of the Student side, taking defense against the NTU side 
 
 ## For users:
 
-[Watch game commentary and demo video](https://youtu.be/cK3QzVygkrs)
+[Click here to watch game commentary and demo video](https://youtu.be/cK3QzVygkrs)
 
 ### Window Size:
 This game opens up a window of size 1100*960 pixels. Please modify your display settings to accommodate the window before you run the game.
