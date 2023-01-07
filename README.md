@@ -50,47 +50,30 @@ This project is in C++ and SDL2.
   * Handles input events and calls corresponding functions of other classes.
   * Frees memory and closes the program.<br>
 
-* `constant.h`
-Defines the constants used in the program
+* `constant.h`<br>Defines the constants used in the program, including the dimensions of the screen, and map and the values assigned to each character in the program
 
-`student.cpp`
-Contains the class that handles the functions of the characters on the students' side, including launching bullets, getting hurt, the individual functions of certain characters, and finally rendering the image of the characters onto the screen.
+* `student.cpp`<br>Contains the class that handles the functions of the characters on the students' side, including launching bullets, getting hurt, the individual functions of certain characters, and finally rendering the image of the characters onto the screen.
+* `student.h`<br>Header file for `student.cpp`.
 
-`student.h`
-Header file for student.cpp.
+* `ntu.cpp`<br>Contains the class that handles the functions of the objects on the NTU side, including, moving, getting shot by bullets, hurting students, and the individual functions of certain characters, and finally rendering the image of the characters onto the screen.
+* `ntu.h`<br>Header file for `ntu.cpp`.
 
-`ntu.cpp`
-Contains the class that handles the functions of the objects on the NTU side, including, moving, getting shot by bullets, hurting students, and the individual functions of certain characters, and finally rendering the image of the characters onto the screen.
+* `battlecontrol.cpp`<br>Contains the functions that handle the events during battle
 
-`ntu.h`
-Header file for NTU.cpp.
+* `battlecontrol.h`<br>Header file for `battlecontrol.cpp`.
 
-`battlecontrol.cpp`
-Contains the functions that handle the events during battle, including
+* `cardbar.cpp`<br>Contains functions that handle the selection of characters from the card bar, the cooldown of characters, and the amount of COFFEE the player holds.
 
-`battlecontrol.h`
-Header file for Battlecontrol.cpp.
+* `cardbar.h`<br>The header file for `cardbar.cpp`.
 
-`cardbar.cpp`
-Contains functions that handle the selection of characters from the card bar, the cooldown of characters, and the amount of COFFEE the player holds.
+* `state.cpp`<br>Handles the current state of the program. (Initialize, game, end.)
 
-`cardbar.h`
-The header file for cardbar.cpp.
+* `state.h`<br>Header file for `state.cpp`.
 
-`state.cpp`
-Handles the current state of the program. (Initialize, game, end.)
+* `texture.cpp`<br>Contains the wrapper class for loading and rendering texture using SDL.
 
-`state.h`
-Header file for state.cpp.
+* `texture.h`<br>Header file for `texture.cpp`.
 
-`texture.cpp`
-Contains the wrapper class for loading and rendering texture using SDL.
+* `timer.cpp`<br>Contains the class to access the SDL timer.
 
-`texture.h`
-Header file for LTexture.cpp.
-
-`timer.cpp`
-Contains the class to access the SDL timer.
-
-`timer.h`
-Header file for LTimer.cpp.
+* `timer.h`<br>Header file for `timer.cpp`.
