@@ -2,6 +2,8 @@
 This game is a tower defense game based on the university school life of the developers.<br>
 Players assume control of the Student side, taking defense against the NTU side which is controlled automatically by the program.
 
+---
+
 ## For users:
 ### Window Size:
 This game opens up a window of size 1100*960 pixels. Please modify your display settings to accommodate the window before you run the game.
@@ -40,6 +42,8 @@ The game will be won once the object named FINAL on the NTU side has been demoli
 
 ### Losing condition:
 The game will be lost once an NTU object not of type "Mr.Shuiyuan" reaches the first column on the left of the map.<br>
+
+---
 
 ## For developers:
 This project is in C++ and SDL2.
