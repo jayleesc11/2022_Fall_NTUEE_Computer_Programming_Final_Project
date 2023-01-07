@@ -47,7 +47,6 @@ The game will be lost once an NTU object not of type "Mr.Shuiyuan" reaches the f
 
 ## For developers:
 This project is in C++ and SDL2.
-### Program Description:
 * `main.cpp`
   * Initializes the objects used in the program.
   * Load the media required in the program.
