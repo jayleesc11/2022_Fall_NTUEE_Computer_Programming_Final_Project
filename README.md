@@ -50,9 +50,9 @@ This project is in C++ and SDL2.
   * Handles input events and calls corresponding functions of other classes.
   * Frees memory and closes the program.<br>
 
-* `constant.h`<br>Defines the constants used in the program, including the dimensions of the screen, and map and the values assigned to each character in the program
+* `constant.h`<br>Defines the constants used in the program, including the dimensions of the screen, and map and the values assigned to each character in the program.
 
-* `student.cpp`<br>Contains the class that handles the functions of the characters on the students' side, including launching bullets, getting hurt, the individual functions of certain characters, and finally rendering the image of the characters onto the screen.
+* `student.cpp`<br>Contains the class that handles the functions of the characters on the students' side, including getting hurt, the individual functions of certain characters, and finally rendering the image of the characters onto the screen.
 * `student.h`<br>Header file for `student.cpp`.
 
 * `ntu.cpp`<br>Contains the class that handles the functions of the objects on the NTU side, including, moving, getting shot by bullets, hurting students, and the individual functions of certain characters, and finally rendering the image of the characters onto the screen.
