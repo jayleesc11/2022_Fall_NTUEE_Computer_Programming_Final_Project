@@ -17,9 +17,9 @@ There are three blocks on the interface.<br>
 * **Info on NTU side (CPU controlled):** information on the characters you will be taking defense against
 
 ### Properties of characters:
-* **Cost:** <br>the resources (coffee) needed to construct a character on the map. The cups of coffee you possess are displayed at the left edge of the card bar.
-* **Cooldown time:** <br>the minimum interval between constructing a character and selecting it the next time. The cooldown time remaining for each character is displayed over their position on the card bar in seconds.<br>Please note that cooldown time doesn't start counting until the character has been constructed on the map.
-* **HP:** <br>the amount of damage a character can bear before it gets demolished.
+* **Cost:** <br>The resources (coffee) needed to construct a character on the map. The cups of coffee you possess are displayed at the left edge of the card bar.
+* **Cooldown time:** <br>The minimum interval between constructing a character and selecting it the next time. The cooldown time remaining for each character is displayed over their position on the card bar in seconds.<br>Please note that cooldown time doesn't start counting until the character has been constructed on the map.
+* **HP:** <br>The amount of damage a character can bear before it gets demolished.
 
 ### Control:
 Click on the character cards in the card bar located at the top left of the screen to select a character.<br>
