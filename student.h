@@ -47,7 +47,7 @@ extern std::vector<Bullet*> g_bullets;
 class Student
 {
 	public:
-		// alive_ Status
+		// Alive status
 		bool alive_;
 
 		// Hurt by NTU

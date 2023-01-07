@@ -97,10 +97,10 @@ class Midterm: public NTU
 class Final: public NTU
 {
 	public:
-		// Normal Constructor
+		// Normal constructor
 		Final(int row);
 		
-		// Constuctor for kLose animation
+		// Constuctor for lose animation
 		Final(int x, int y);
 		
 		void Summon();

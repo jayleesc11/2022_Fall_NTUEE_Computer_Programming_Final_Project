@@ -43,16 +43,16 @@ vector<Bullet*> g_bullets;
 vector<Student*> g_students;
 vector<NTU*> g_ntus;
 
-// kGame state
+// Game state
 State g_state;
 
-// kGame battlecontrol
+// Game battlecontrol
 Battlecontrol g_battlecontrol;
 
-// kGame cardbar
+// Game cardbar
 Cardbar g_cardbar;
 
-// kGame coffee number
+// Game coffee number
 int g_coffee_number = kInitCoffeeNumber;
 
 bool Init()
@@ -121,7 +121,7 @@ bool LoadMedia()
 	//Loading success flag
 	bool success = true;
 
-	//Load dot texture
+	//Load texture
 	if( !g_backgrounds[0].LoadFromFile( "image/InitBackground.png" ) )
 	{
 		printf( "Failed to load texture!\n" );

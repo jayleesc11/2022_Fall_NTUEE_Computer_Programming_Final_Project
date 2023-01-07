@@ -99,7 +99,7 @@
 #define kFinalHP 1500
 #define kShuiyuanHP 100
 
-// NTU velocity_
+// NTU velocity
 #define kHomeworkVelocity 0.25
 #define kVideoVelocity 0.25
 #define kProjectVelocity 0.25
@@ -109,7 +109,7 @@
 #define kFinalVelocity 0.2
 #define kShuiyuanVelocity 2
 
-// NTU damage_
+// NTU damage
 #define kHomeworkDamage 100
 #define kVideoDamage 100
 #define kProjectDamage 100

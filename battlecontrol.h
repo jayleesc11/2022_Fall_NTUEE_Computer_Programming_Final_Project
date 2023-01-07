@@ -23,26 +23,26 @@ class Battlecontrol
 		// Start
 		void Start();
 		
-		// handle all battle calculation (Done)
+		// handle all battle calculation
 		void HandleAllBattleCalculation();
 		
-		// handle all Render (Done)
+		// handle all render
 		void HandleAllRender();
 		
-		// generate NTU (Done)
+		// generate NTU
 		int GetRandomMaprow();
 		void HandleNTUGenerate();
 		
-		// can NTU attack Student & shuiyuan skill (Done)
+		// can NTU attack Student & shuiyuan skill
 		bool CanNTUMove(NTU* ntu);
 
-		// handle Student shooter shoot (Done)
+		// handle Student shooter shoot
 		void HandleStudentShoot(Student* student);
 
-		// handle bullet & NTU interaction (Done)
+		// handle bullet & NTU interaction
 		void HandleBulletHitMove(Bullet* bullet);
 		
-		// handle Student bomber explode_ (Done)
+		// handle Student bomber explode
 		bool CanStudentExplode(Student* student);
 		void HandleStudentBomberExplode(Student* student);
 	

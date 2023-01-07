@@ -27,7 +27,7 @@ void Battlecontrol::HandleAllBattleCalculation()
 {
 	HandleNTUGenerate();
 	
-	// g_bullets
+	// Bullet
 	for (int i = 0; i < g_bullets.size(); i++)
 	{
 		// hit and move
@@ -41,7 +41,7 @@ void Battlecontrol::HandleAllBattleCalculation()
 		}
 	}
 	
-	// g_students
+	// Student
     for (int i = 0; i < g_students.size(); i++)
 	{
 		// shooters
@@ -62,7 +62,7 @@ void Battlecontrol::HandleAllBattleCalculation()
 		}
 	}
 	
-	// g_ntus
+	// NTU
 	for (int i = 0; i < g_ntus.size(); i++)
 	{
 		// summoners
@@ -158,23 +158,23 @@ void Battlecontrol::HandleNTUGenerate()
 	}
 }
 
-// handle all Render (Done)
+// handle all render
 void Battlecontrol::HandleAllRender()
 {
-	// g_bullets
+	// Bullet
 	for (int i = 0; i < g_bullets.size(); i++)
 		g_bullets[i]->Render();
 	
-	// g_students
+	// Student
     for (int i = 0; i < g_students.size(); i++)
 		g_students[i]->Render();
 	
-	// g_ntus
+	// NTU
 	for (int i = 0; i < g_ntus.size(); i++)
 		g_ntus[i]->Render();
 }
 
-// handle NTU attack Student & shuiyuan skill (Done)
+// handle NTU attack Student & shuiyuan skill
 bool Battlecontrol::CanNTUMove(NTU* ntu)
 {
 	if(ntu->pos_x() - ntu->velocity_ * kBlockWidth * kFrameInterval <= kMapOriginX)
@@ -208,7 +208,7 @@ bool Battlecontrol::CanNTUMove(NTU* ntu)
 	return true;
 }
 
-// handle Student shooter shoot (Done)
+// handle Student shooter shoot
 void Battlecontrol::HandleStudentShoot(Student* student)
 {
 	if(student->id() == kNormalstudentID || student->id() == kStarstudentID)
@@ -239,7 +239,7 @@ void Battlecontrol::HandleBulletHitMove(Bullet* bullet)
 		bullet->Move();
 }
 
-// handle Student bomber explode_
+// handle Student bomber explode
 bool Battlecontrol::CanStudentExplode(Student* student)
 {	
 	for (int i = 0; i < g_ntus.size(); i++)
