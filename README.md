@@ -44,14 +44,14 @@ The game will be lost once an NTU object not of type "Mr.Shuiyuan" reaches the f
 ## For developers:
 This project is in C++ and SDL2.
 ### Program Description:
-#### `main.cpp`
-Initializes the objects used in the program.<br>
-Load the media required in the program.<br>
-Handles input events and calls corresponding functions of other classes.<br>
-Frees memory and closes the program.<br>
+* `main.cpp`
+  * Initializes the objects used in the program.
+  * Load the media required in the program.
+  * Handles input events and calls corresponding functions of other classes.
+  * Frees memory and closes the program.<br>
 
-#### `constant.h`
-Defines the constants used in the program, including the dimensions of the screen and map, the values assigned to each character in the program, and the path to the media that needs to be loaded in `main.cpp`.
+* `constant.h`
+Defines the constants used in the program
 
 `student.cpp`
 Contains the class that handles the functions of the characters on the students' side, including launching bullets, getting hurt, the individual functions of certain characters, and finally rendering the image of the characters onto the screen.
