@@ -1,4 +1,4 @@
-# NTUEE-Computer-Programming-Final-Project-Game-Student-vs-NTU
+# NTUEE Computer Programming Final Project Game Student vs NTU
 This game is a tower defense game based on the university school life of the developers.<br>
 Players assume control of the Student side, taking defense against the NTU side which is controlled automatically by the program.
 
@@ -40,3 +40,60 @@ The game will be won once the object named FINAL on the NTU side has been demoli
 
 ### Losing condition:
 The game will be lost once an NTU object not of type "Mr.Shuiyuan" reaches the first column on the left of the map.<br>
+
+## For developers:
+This project is in C++ and SDL2.
+### Program Description:
+`Main.cpp`:
+Initializes the objects used in the program.
+Load the media required in the program.
+Handles input events and calls corresponding functions of other classes.
+Frees memory and closes the program.
+
+constant.h:
+Defines the constants used in the program, including the dimensions of the screen and map, the values assigned to each character in the program, and the path to the media that needs to be loaded in main.cpp.
+
+student.cpp:
+Contains the class that handles the functions of the characters on the students' side, including launching bullets, getting hurt, the individual functions of certain characters, and finally rendering the image of the characters onto the screen.
+
+student.h:
+Header file for student.cpp.
+
+NTU.cpp:
+Contains the class that handles the functions of the objects on the NTU side, including, moving, getting shot by bullets, hurting students, and the individual functions of certain characters, and finally rendering the image of the characters onto the screen.
+
+NTU.h:
+Header file for NTU.cpp.
+
+battlecontrol.cpp
+Contains the functions that handle the events during battle, including
+
+battlecontrol.h:
+Header file for Battlecontrol.cpp.
+
+cardbar.cpp:
+Contains functions that handle the selection of characters from the card bar, the cooldown of characters, and the amount of COFFEE the player holds.
+
+cardbar.h:
+The header file for cardbar.cpp.
+
+state.cpp
+Handles the current state of the program. (Initialize, game, end.)
+
+state.h:
+Header file for state.cpp.
+
+LTexture.cpp:
+Contains the wrapper class for loading and rendering texture using SDL.
+
+LTexture.h
+Header file for LTexture.cpp.
+
+LTimer.cpp
+Contains the class to access the SDL timer.
+
+LTimer.h:
+Header file for LTimer.cpp.
+
+To modify constants:
+Edit the constants defined in constant.h.
