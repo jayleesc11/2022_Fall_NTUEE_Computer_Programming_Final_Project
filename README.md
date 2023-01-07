@@ -3,21 +3,21 @@ This game is a tower defense game based on the university school life of the dev
 Players assume control of the Student side, taking defense against the NTU side which is controlled automatically by the program.
 
 ## For users:
-### Window Size:
+#### Window Size:
 This game opens up a window of size 1100*960 pixels. Please modify your display settings to accommodate the window before you run the game.
 
-### Starting Interface:
-Open "Final_Project.exe".<br>
-The starting interface pops up once the game is started. There are three blocks on the interface.<br>
-* "New Game": start playing.
+#### Starting Interface:
+Open "Student vs NTU.exe".<br>
+The starting interface pops up once the game is started.<br>
+There are three blocks on the interface.<br>
+* "New Game": start playing
 * "Info on student side (player controlled)": information on the characters you control
 * "Info on NTU side (CPU controlled)": information on the characters you will be taking defense against
 
 ### Properties of characters:
-*Cost: The resources (coffee) needed to construct a character on the map. The cups of coffee you possess are displayed at the left edge of the card bar.
-Cooldown time: The minimum interval between constructing a character and selecting it the next time. The cooldown time remaining for each character is displayed over their position on the card bar in seconds.
-Please note that cooldown time doesn't start counting until the character has been constructed on the map.
-HP: The amount of damage a character can bear before it gets demolished.
+* Cost: The resources (coffee) needed to construct a character on the map. The cups of coffee you possess are displayed at the left edge of the card bar.
+* Cooldown time: The minimum interval between constructing a character and selecting it the next time. The cooldown time remaining for each character is displayed over their position on the card bar in seconds.<br>Please note that cooldown time doesn't start counting until the character has been constructed on the map.
+* HP: The amount of damage a character can bear before it gets demolished.
 
 Control:
 Click on the character cards in the card bar located at the top left of the screen to select a character. 
