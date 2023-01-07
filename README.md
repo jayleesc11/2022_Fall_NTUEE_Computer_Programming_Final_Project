@@ -9,7 +9,7 @@ Players assume control of the Student side, taking defense against the NTU side 
 This game opens up a window of size 1100*960 pixels. Please modify your display settings to accommodate the window before you run the game.
 
 ### Starting Interface:
-Open "Student vs NTU.exe".<br>
+Open `Student vs NTU.exe`<br>
 The starting interface pops up once the game is started.<br>
 There are three blocks on the interface.<br>
 * **New Game:** start playing
