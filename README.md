@@ -44,56 +44,53 @@ The game will be lost once an NTU object not of type "Mr.Shuiyuan" reaches the f
 ## For developers:
 This project is in C++ and SDL2.
 ### Program Description:
-`Main.cpp`:
-Initializes the objects used in the program.
-Load the media required in the program.
-Handles input events and calls corresponding functions of other classes.
-Frees memory and closes the program.
+#### `main.cpp`
+Initializes the objects used in the program.<br>
+Load the media required in the program.<br>
+Handles input events and calls corresponding functions of other classes.<br>
+Frees memory and closes the program.<br>
 
-constant.h:
-Defines the constants used in the program, including the dimensions of the screen and map, the values assigned to each character in the program, and the path to the media that needs to be loaded in main.cpp.
+#### `constant.h`
+Defines the constants used in the program, including the dimensions of the screen and map, the values assigned to each character in the program, and the path to the media that needs to be loaded in `main.cpp`.
 
-student.cpp:
+`student.cpp`
 Contains the class that handles the functions of the characters on the students' side, including launching bullets, getting hurt, the individual functions of certain characters, and finally rendering the image of the characters onto the screen.
 
-student.h:
+`student.h`
 Header file for student.cpp.
 
-NTU.cpp:
+`ntu.cpp`
 Contains the class that handles the functions of the objects on the NTU side, including, moving, getting shot by bullets, hurting students, and the individual functions of certain characters, and finally rendering the image of the characters onto the screen.
 
-NTU.h:
+`ntu.h`
 Header file for NTU.cpp.
 
-battlecontrol.cpp
+`battlecontrol.cpp`
 Contains the functions that handle the events during battle, including
 
-battlecontrol.h:
+`battlecontrol.h`
 Header file for Battlecontrol.cpp.
 
-cardbar.cpp:
+`cardbar.cpp`
 Contains functions that handle the selection of characters from the card bar, the cooldown of characters, and the amount of COFFEE the player holds.
 
-cardbar.h:
+`cardbar.h`
 The header file for cardbar.cpp.
 
-state.cpp
+`state.cpp`
 Handles the current state of the program. (Initialize, game, end.)
 
-state.h:
+`state.h`
 Header file for state.cpp.
 
-LTexture.cpp:
+`texture.cpp`
 Contains the wrapper class for loading and rendering texture using SDL.
 
-LTexture.h
+`texture.h`
 Header file for LTexture.cpp.
 
-LTimer.cpp
+`timer.cpp`
 Contains the class to access the SDL timer.
 
-LTimer.h:
+`timer.h`
 Header file for LTimer.cpp.
-
-To modify constants:
-Edit the constants defined in constant.h.
