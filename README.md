@@ -1,4 +1,5 @@
-# NTUEE Computer Programming Final Project Game: Student vs NTU
+# 2022 Fall NTUEE Computer Programming Final Project 
+## Game: Student vs NTU
 This game is a tower defense game based on the college life of the developers.<br>
 Players assume control of the Student side, taking defense against the NTU side which is controlled automatically by the program.
 
